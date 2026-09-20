@@ -1,0 +1,5 @@
+{
+  "name": "MIR4 Boss Respawn Timer",
+  "description": "A sleek and responsive timer to track boss respawns in the game MIR4. Filter by map, boss name, or time of day to see upcoming spawns with a live countdown.",
+  "requestFramePermissions": []
+}
