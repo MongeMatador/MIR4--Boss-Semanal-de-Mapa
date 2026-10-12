@@ -57,6 +57,11 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       {children}
 
+      <footer className="border-t border-slate-800 mt-8 py-6 text-center text-xs text-slate-500 space-x-4">
+        <NavLink to="/sobre" className="hover:text-slate-300 underline">Sobre</NavLink>
+        <NavLink to="/privacidade" className="hover:text-slate-300 underline">Política de Privacidade</NavLink>
+      </footer>
+
       <FloatingDonationButton />
     </div>
   );
